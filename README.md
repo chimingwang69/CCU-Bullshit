@@ -37,7 +37,7 @@
 
 ### Step2.
 
-打開DevTools(以Chrome為例) 找到https://events.lib.ccu.edu.tw的cookie
+打開DevTools(以Chrome為例) 找到 `https://events.lib.ccu.edu.tw`的cookie
 把sessionid複製起來
 
 ![image](https://github.com/chimingwang69/CCU-Bullshit/blob/main/img/2.png)
