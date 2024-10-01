@@ -21,7 +21,6 @@
 | Beautiful Soup |      |
 | Request        |      |
 
-
 ## 3. Usage
 
-待補
+![image](https://github.com/chimingwang69/CCU-Bullshit/blob/main/img/1.png)
