@@ -2,11 +2,9 @@
 
 中正大學服學講座
 
-
 > [!WARNING]
-> 本腳本僅用學習以events.lib.ccu.edu.tw為例發送http請求(post&get)與回應之解讀    
+> 本腳本僅用學習以events.lib.ccu.edu.tw為例發送http請求(post&get)與回應之解讀
 > 而發生包括但不限於帳號被鎖、活動被刪、癱瘓系統遭依中華民國刑法§360起訴，本人一概不承擔任何責任
->
 
 ## 1. Description
 
@@ -42,7 +40,6 @@
 
 ![image](https://github.com/chimingwang69/CCU-Bullshit/blob/main/img/2.png)
 
-
 ### Step3.
 
 填好個人資訊
@@ -51,13 +48,12 @@
 
 ```python
 email            =     'FuckyouCCUSL@ccu.edu.tw'
-your_sessionid   =     '30678FuckyouCCUSLYourMomIsASluttyWhoreOnMyBedICumInInHerPussy666'
+your_sessionid   =     'hahaccuslissuck87idiot7414biatch'
 #保險用身分證字號
 identity_number  =     'A948730678'
 #YYYY-MM-DD
 birthday         =     '1937-07-07'
 ```
-
 
 ## 4. Note
 
