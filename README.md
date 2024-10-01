@@ -4,7 +4,7 @@
 
 
 > [!WARNING]
-> 本腳本僅用學習以events.lib.ccu.edu.tw為例發送http請求(post&get)與回應之解讀
+> 本腳本僅用學習以events.lib.ccu.edu.tw為例發送http請求(post&get)與回應之解讀    
 > 而發生包括但不限於帳號被鎖、活動被刪、癱瘓系統遭依中華民國刑法§360起訴，本人一概不承擔任何責任
 >
 
