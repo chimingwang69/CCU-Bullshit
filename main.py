@@ -10,6 +10,8 @@ your_sessionid = ''
 identity_number = ''
 # YYYY-MM-DD
 birthday = ''
+# meat:葷食 no_need:自理 vegetarian:素食
+meal = 'meat'
 
 useragent = 'Mozilla/5.0 (X11; Linux; en-US; rv:127.0) Gecko/20160210 Firefox/127.0'
 headers = {'User-Agent': useragent}
@@ -23,7 +25,7 @@ class Event:
 
 def attend(event_id, stop_event):
     data = {'email': email, 'identity_number': identity_number,
-            'birthday': birthday}
+            'birthday': birthday, 'meal': meal}
     url = f'https://events.lib.ccu.edu.tw/event/add/{event_id}/'
     while True:
         try:
