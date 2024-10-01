@@ -24,6 +24,8 @@
 | -------------- | ---- |
 | Beautiful Soup |      |
 | Request        |      |
+| threading      |      |
+| time           |      |
 
 ## 3. Usage
 
