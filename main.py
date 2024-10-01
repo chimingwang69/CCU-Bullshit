@@ -58,9 +58,9 @@ cookies = {'sessionid': your_sessionid}
 session = requests.session()
 res = session.get(all_event_url, cookies=cookies)
 soup = BeautifulSoup(res.text, 'html.parser')
-# 活動link含有class="remove_underline bg_hover_blackOpacity05 w-100"
+# 列出所有活動link
 links = soup.find_all(
-    'a', class_="remove_underline bg_hover_blackOpacity05 w-100")
+    'a', href=lambda href: href and href.startswith('/event/detail/list/'))
 for link in links:
     if link.get('title').find('服務學習') != -1:
         event_name = link.get('title')
