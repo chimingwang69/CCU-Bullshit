@@ -82,7 +82,7 @@ for i, event in enumerate(events):
 
 # 監控events.lib.ccu.edu.tw/my/的活動 有的話就結束該threads
 attended_event = []
-while True:
+while events:
     time.sleep(60)
     res = session.get(my_event_url, cookies=cookies)
     soup = BeautifulSoup(res.text, 'html.parser')
@@ -96,8 +96,6 @@ while True:
             print(f'成功報名: {event.id} {event.name}')
             stop_events[event.threads].set()
             events.remove(event)
-    if not events:
-        break
 for t in threads:
     t.join()
 print('done!')
