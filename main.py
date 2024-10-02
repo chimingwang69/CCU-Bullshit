@@ -95,6 +95,7 @@ while events:
             print(f'成功報名: {event.id} {event.name}')
             stop_events[event.threads].set()
             events.remove(event)
+            continue
         if not threads[event.threads].is_alive():
             events.remove(event)
     time.sleep(60)
