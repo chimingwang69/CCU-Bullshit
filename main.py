@@ -15,8 +15,8 @@ meal = 'meat'
 # User_Agent
 useragent = 'Mozilla/5.0 (X11; Linux; en-US; rv:127.0) Gecko/20160210 Firefox/127.0'
 headers = {'User-Agent': useragent}
-# var all_event_url: 接受報名中的活動, type: str
-all_event_url = 'https://events.lib.ccu.edu.tw/event/search/?time=join'
+# var all_event_url: 所有活動, type: str
+all_event_url = 'https://events.lib.ccu.edu.tw/'
 # var my_event_url: 我的活動頁面, type: str
 my_event_url = 'https://events.lib.ccu.edu.tw/my/'
 
