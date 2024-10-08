@@ -62,3 +62,4 @@ birthday         =     '1937-07-07'
 1. 此腳本需要手動更新sessionid
 2. 可在報名開始前先打開
 3. ~~沒有寫自動停止的機制，請自行去[我的活動](https://events.lib.ccu.edu.tw/my/)檢查是否有搶到並手動關~~   v2有了
+4. sessionid實測有效期非常長，如果以後改短可以參考[這篇](https://github.com/chimingwang69/ccuSSO_keep_login)來做重新登入
