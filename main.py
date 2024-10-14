@@ -19,7 +19,8 @@ headers = {'User-Agent': useragent}
 all_event_url = 'https://events.lib.ccu.edu.tw/'
 # var my_event_url: 我的活動頁面, type: str
 my_event_url = 'https://events.lib.ccu.edu.tw/my/'
-
+# 排除的活動(請用str e.g. ['1436','1467'])
+exclude = []
 
 # 活動的類別
 
@@ -85,9 +86,10 @@ for link in links:
         event_id = link.get('href').split('/')[4]
         # var event_name: 活動的名稱, type: str
         event_name = link.get('title')
-        event_id = Event(event_id, event_name)
-        events.append(event_id)
-        print(f'{event_id.id}:{event_name}')
+        if event_id not in exclude:
+            event_id = Event(event_id, event_name)
+            events.append(event_id)
+            print(f'{event_id.id}:{event_name}')
 
 
 # 多執行緒
